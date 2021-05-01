@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+.section{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section p{
+    margin: 0;
+}
+
+.menu{
+    background-color:rgba(89,150,219,255);
+    height: 30px;
+}
+
+.header{
+    background-color: rgba(178,214,255,255);
+    height: 100px;
+} 
+
+.content{
+    background-color: rgba(233,237,240,255);
+    height: 200px;
+}
+
+.sign-up{
+    background-color:rgba(215,233,254,255);
+    height: 105px;
+}
+
+.feature-1{
+    background-color:rgba(245,207,142,255);
+    height: 110px;
+}
+
+.feature-2{
+    background-color: rgba(240,154,157,255);
+    height: 110px;
+}
+
+.feature-3{
+    background-color: rgba(200,198,250,255);
+    height: 110px;
+}

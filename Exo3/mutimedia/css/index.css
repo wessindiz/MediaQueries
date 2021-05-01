@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+
+.section{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section p{
+    margin: 0;
+}
+
+.menu{
+    background-color: rgba(89,150,219,255);
+    height: 3vh;
+}
+
+.header{
+    background-color: rgba(178,214,255,255);
+    height: 20vw;
+} 
+
+.content{
+    background-color: rgba(233,237,240,255);
+    height: 55vw;
+}
+
+.sign-up{
+    background-color:rgba(215,233,254,255);
+    height: 25vw;
+}
+
+.feature-1{
+    background-color:rgba(245,207,142,255);
+    height: 25vw;
+}
+
+.feature-2{
+    background-color: rgba(240,154,157,255);
+    height: 25vw;
+}
+
+.feature-3{
+    background-color: rgba(200,198,250,255);
+    height: 25vw;
+}
+
+@media (min-width:401px) and (max-width: 960px) {
+
+    .page{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menu{
+        height: 1em;
+        width: 100%;
+    }
+
+    .header{
+        width: 100%;
+        height: 30vw;
+    }
+
+    .content{
+        width: 100%;
+        height: 70vw;
+    }
+
+    .sign-up {
+        width: 50%;
+        height: 35vw;
+    }
+
+    .feature-1{
+        width: 50%;
+        height: 35vw;
+    }
+
+    .feature-2{
+        width: 50%;
+        height: 35vw;
+    }
+
+    .feature-3{
+        width: 50%;
+        height: 35vw;
+    }
+}
+
+
+@media (min-width: 961px){
+    .page{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menu{
+        height: 1em;
+        width: 100%;
+    }
+
+    .header{
+        width: 100%;
+        height: 15vw;
+    }
+
+    .content{
+        width: 100%;
+        height: 20vw;
+    }
+
+    .sign-up {
+        width: 100%;
+        height: 15vw;
+    }
+
+    .feature-1{
+        width: 33.3%;
+        height: 23vw;
+    }
+
+    .feature-2{
+        width: 33.3%;
+        height: 23vw;
+    }
+
+    .feature-3{
+        width: 33.3%;
+        height: 23vw;
+    }
+}
